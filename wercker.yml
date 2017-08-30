@@ -10,7 +10,7 @@ build:
     - arjen/hugo-build:
         version: "0.26"
         theme: minimal
-        flags: --buildDrafts=false
+        flags: --buildDrafts=true
 deploy:
   steps:
     - install-packages:
