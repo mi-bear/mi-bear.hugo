@@ -1,0 +1,24 @@
+box: debian
+build:
+  steps:
+    - install-packages:
+        packages: git
+    - script:
+        name: initialize git submodules
+        code: |
+          git submodule update --init --recursive
+    - arjen/hugo-build:
+        version: "0.26"
+        theme: minimal
+        flags: --buildDrafts=false
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - leipert/git-push:
+        gh_oauth: $GIT_TOKEN
+        gh_pages_domain: mi-bear.github.io
+        repo: mi-bear/mi-bear.github.io
+        branch: master
+        basedir: public
+

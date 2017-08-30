@@ -1,0 +1,52 @@
+baseURL = "https://mi-bear.github.io/"
+languageCode = "en-us"
+title = "Unemployed Diary"
+theme = "minimal"
+gaid = "UA-105589952-1"
+
+[params]
+  author = "mi-bear"
+  description = "規則正しく生きています"
+  githubUsername = "mi-bear"
+  accent = "green"
+  showBorder = true
+  backgroundColor = "black"
+  font = "Raleway" # should match the name on Google Fonts!
+  highlight = true
+  highlightStyle = "monokai-sublime"
+  highlightLanguages = ["go", "javascript", "ruby", "php", "sql", "html", "markdown", "json"]
+
+[[menu.main]]
+  url = "/"
+  name = "Home"
+  weight = 1
+
+[[menu.main]]
+  url = "/post/"
+  name = "Posts"
+  weight = 2
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+  url = "https://github.com/mi-bear/"
+  name = "github"
+  weight = 1
+
+[[menu.icon]]
+  url = "https://twitter.com/micchiebear/"
+  name = "twitter"
+  weight = 2
+
+[[menu.icon]]
+  url = "https://www.facebook.com/michiru.shirakawa/"
+  name = "facebook"
+  weight = 3
+
+[[menu.icon]]
+  url = ""
+  name = "instagram"
+  weight = 4
+
