@@ -2,7 +2,7 @@ baseURL = "https://mi-bear.github.io/"
 languageCode = "en-us"
 title = "Unemployed Diary"
 theme = "minimal"
-gaid = "UA-105589952-1"
+googleAnalytics = "UA-105589952-1"
 
 [params]
   author = "mi-bear"
@@ -46,7 +46,7 @@ gaid = "UA-105589952-1"
   weight = 3
 
 [[menu.icon]]
-  url = ""
+  url = "https://www.instagram.com/micchiebear/"
   name = "instagram"
   weight = 4
 
