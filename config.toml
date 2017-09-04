@@ -1,12 +1,12 @@
 baseURL = "https://mi-bear.github.io/"
 languageCode = "en-us"
-title = "Unemployed Diary"
+title = "Bear's Lodge"
 theme = "minimal"
 googleAnalytics = "UA-105589952-1"
 
 [params]
   author = "mi-bear"
-  description = "規則正しく生きています"
+  description = "Bear walk with me"
   githubUsername = "mi-bear"
   accent = "green"
   showBorder = true
